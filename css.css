@@ -14,6 +14,7 @@ body{
 .top-line{
     background-color: #C8A35F;
     color: white;
+    width: auto;
 }
 
 .top-line-container{
@@ -41,8 +42,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 27px;
-    
-
 }
 
 .header-logo{
@@ -74,7 +73,6 @@ body{
 }
 
 nav{
-    display: flex;
 }
 
 .item a{
@@ -173,6 +171,11 @@ nav{
     width: 70%;
     margin: 120px auto;
 }
+.all-services-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .all-services-item{
     background-color: #393F47;
     width: 24%;
@@ -236,6 +239,8 @@ nav{
 
 .maps{
     margin-top: 230px;
+    background-image: url("imgs/maps.png");
+    height: 500px;
 }
 
 footer{
