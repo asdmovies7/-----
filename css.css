@@ -73,6 +73,7 @@ body{
 }
 
 nav{
+    display: flex;
 }
 
 .item a{
@@ -169,12 +170,13 @@ nav{
     flex-wrap: wrap;
     gap: 1px;
     width: 70%;
-    margin: 120px auto;
+    margin: 40px auto 120px;
 }
 .all-services-h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .all-services-item{
     background-color: #393F47;
@@ -265,3 +267,56 @@ footer img{
 .active{
     color: white !important;
 } 
+
+@media(max-width: 1280px){
+    nav{
+        flex-wrap: wrap;
+    }
+
+    .item{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 768px){
+    nav{
+        display: none;
+    }
+
+    .first-screen h1{
+        font-size: 32px;
+        padding: 0 20px;
+    }
+
+    .services{
+        flex-direction: column;
+    }
+
+    .services-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .services-right{
+        margin-top: 20px;
+    }
+
+    .all-services{
+        margin: 20px auto 0;
+    }
+
+    .all-services-item{
+        width: 40%;
+    }
+
+    .about-company{
+        flex-direction: column;
+    }
+
+    .about-left{
+        width: 100%;
+    }
+}
