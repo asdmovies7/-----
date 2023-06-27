@@ -228,15 +228,28 @@ nav{
     flex-wrap: wrap;
 }
 .about-right-box{
-    width: 33%;
+    width: 60%;
     aspect-ratio: 200/160;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .about-right-img{
-    width: 33%;
+    width: 60%;
     aspect-ratio: 200/160;
-    background-image: url(./images/truck.png);
+    background-image: url(imgs/Rectangle\ 2.3.png);
     background-size: cover;
+}
+.about-right-box h1{
+    color: black;
+}
+.about-right-box p{
+    color: black;
+}
+.about-right-box h6{
+    color: black;
 }
 
 .maps{
